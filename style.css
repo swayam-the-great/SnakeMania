@@ -1,0 +1,103 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("../img/bg.jpg"); 
+    min-height: 100vh;
+    background-size: 110vw 140vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+#board{
+    background: linear-gradient(rgb(36, 39, 36), rgb(53, 53, 48));
+    width: 100vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    position: absolute;
+    left: 70px;
+    top: 20px; /* adjust as needed */
+    border: 2px solid rgb(121, 246, 250);
+    border-radius: 15px;
+}
+
+.head {
+    
+    background: url("../img/head.PNG") no-repeat center center;
+    background-size: cover;
+    border-radius: 19px;
+    border: 3px solid  rgb(53, 53, 48);
+    scale: 1.4;
+    
+
+}
+
+
+.snake{
+    background: linear-gradient(rgb(3, 29, 4), rgb(78, 121, 64));
+    border: 2px solid rgb(81, 230, 230); 
+    transform: scale(.92);
+    border-radius: 9px;
+}
+
+.food{
+    background: url("../img/apple.PNG") no-repeat center center;
+    background-size: cover; /* or contain, depending on what you prefer */
+    border-radius: 15px;
+    border: 3px solid  rgb(53, 53, 48);
+    
+}
+
+
+.title{
+    position: absolute;
+    top: 10px;
+    right: 250px;
+    font-size: 60px;
+    color: red;
+    font-family: 'New Tegomin', serif;
+
+}
+
+
+ #scoreBox {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 200px;
+    padding: 10px 20px;
+    background-color:rgb(94, 94, 94);
+    border: 2px solid rgb(255, 254, 254);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    color: rgb(44, 158, 22);
+    font-family: 'New Tegomin', serif;
+}
+ #hiscoreBox {
+    position: absolute;
+    top: 155px;
+    right: 40px;
+    width: 200px;
+    padding: 10px 20px;
+    background-color:rgb(94, 94, 94);
+    border: 2px solid rgb(255, 254, 254);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    color: rgb(44, 158, 22);
+    font-family: 'New Tegomin', serif;
+}
+
+
