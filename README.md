@@ -9,17 +9,6 @@ A classic Snake game built using HTML, CSS, and JavaScript. Eat the food, grow t
 
 ---
 
-## 🎮 Demo
-
-🚀 [Play Live](https://yourusername.github.io/SnakeMania)  
-*(Replace with your actual GitHub Pages link if hosted)*
-
----
-
-## 📸 Preview
-
-![SnakeMania Gameplay Screenshot](preview.png)  
-*(Add a screenshot named `preview.png` to your repo)*
 
 ---
 
@@ -46,5 +35,5 @@ A classic Snake game built using HTML, CSS, and JavaScript. Eat the food, grow t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/SnakeMania.git
+   git clone https:/swayam-the-great/github.com//SnakeMania.git
 
